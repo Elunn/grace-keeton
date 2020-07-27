@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="project-display">
+{{ range .Site.Taxonomies.categories.work }}
+	{{ $permalink := .Permalink }}
+	<div class="project animate__animated animate__fadeIn">
+		<a href="{{ $permalink }}">
+			{{ with .Resources.GetMatch "header" }}
+			<div class="project-thumbnail"  style="background-image: url({{ .Permalink }}); background-size:cover;">{{ end }}
+				<div class="overlay">
+					<div class="overlay-text">
+						<h2 class="target">{{ .Title }}</h2>
+						<h3>{{ .Params.subtitle }}</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+{{ end }}
+</div>
+
+{{ end }}
+
+        

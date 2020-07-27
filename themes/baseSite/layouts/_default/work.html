@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section id="container">
+	<div class="work-text">
+		<h1>{{ .Title }}</h1>
+		
+		<div class="content">
+		{{ .Content }}
+		</div>
+	</div>
+
+	{{ with .Resources.Match "images/*" }}
+	<div class="work-images">
+	{{range sort (.) "Params.weight"}}
+		<img src="{{ .RelPermalink }}">
+	{{ end }}
+	</div>
+	{{ end }}
+</section>
+	{{ end }}
