@@ -202,10 +202,6 @@ header {
 	font-size: 2.5vw;
 }
 
-.overlay h2:before {
-	border-bottom: solid;
-}
-
 
 .overlay h3 {
 	font-size: 1em;
@@ -223,7 +219,7 @@ header {
 }
 
 .overlay h2 span:last-child {
-	border-bottom: 1px solid;
+	border-bottom: 1px solid; /* underline the last word in the overlay */
 }
 
 .overlay h2 span:nth-child(3) {
@@ -270,14 +266,40 @@ header {
 
 /* || Work pages */
 
+.work-text h1 {
+	font-size: 2.5rem;
+}
+
+.work-text span {
+	display: block;
+}
+
+.work-text h1 span:last-child {
+	border-bottom: 1px solid;
+	display: inline;
+}
+
+.work-text h1 span:nth-child(3) {
+	font-size: 1.4rem;
+}
+
+.work-images img{
+	padding-bottom: 1em;
+}
+
+.work-text {
+	line-height: 1.5;
+}
+
+.work-text p {
+	padding: 0.4em 0;
+}
 
 @media all and (min-width: 700px) { 
-	
 	.work-text {
 		width: 30%;
 		padding-right: 3.5em;
 	}
-
 	.work-images {
 		width: 40%;
 	}

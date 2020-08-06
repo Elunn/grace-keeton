@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Work"
 date: 2020-07-19T15:28:07+01:00
 menu:
   main:

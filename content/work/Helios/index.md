@@ -3,6 +3,8 @@ title: "Helios"
 subtitle: RCA, 2020
 date: 2020-07-25T13:29:33+01:00 
 layout: work
+client: RCA
+length: 4 Months
 categories: "work"
 resources:
   - src: "images/Dawn@2x.png"
