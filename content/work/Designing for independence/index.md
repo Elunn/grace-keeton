@@ -1,9 +1,10 @@
 ---
 title: "Designing for Independence"
+subtitle: The Ohio State University
 date: 2020-07-25T09:20:36+01:00
 layout: work
 categories: "work"
-subtitle: The Ohio State University
+overlayStyle: "one"
 resources:
   - src: "images/one.jpg"
     title: one
@@ -18,7 +19,7 @@ resources:
     params:
       weight: 20
   - name: header
-    src: title/dis.png
+    src: title/Capstone-Cover-Page.jpg
 
 ---
 

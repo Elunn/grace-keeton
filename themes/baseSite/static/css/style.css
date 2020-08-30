@@ -94,12 +94,13 @@ p {
 header {
 	z-index: 100;
 	background-color: #fff;
-	height: 12vh;
+	height: 8vh;
 	width: 100vw;
 	position: fixed;
 }
 
 .navbar {
+	padding-top: 1em;
 	height: 100%;
 	width: 92%;
 	margin: auto;
@@ -145,6 +146,10 @@ header {
 }
 
 @media all and (min-width: 700px) {
+	header {
+		height: 12vh;
+	}
+	
 	.navbar {
 		flex-direction: row-reverse;
 		
@@ -166,7 +171,7 @@ header {
 }
 
 .project {
-	width: 25%;
+	width: 100%;
 }
 
 .project-thumbnail {
@@ -179,7 +184,7 @@ header {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,.4);;
+	background-color: rgba(0,0,0,.4);
 	opacity: 0;
 	color: #fff;
 	text-align: center;
@@ -198,13 +203,16 @@ header {
 }
 
 .overlay h2 {
-	display: inline;
 	font-size: 2.5vw;
 }
 
+.overlay span {
+	display: inline-block;
+}
 
 .overlay h3 {
-	font-size: 1em;
+	line-height: 2;
+	font-size: .8vw;
 }
 
 .overlay h2, .overlay h3 {
@@ -214,16 +222,8 @@ header {
 	color: rgba(225,225,225, 0.99)
 }
 
-.overlay span{
-	display: block;
-}
-
 .overlay h2 span:last-child {
 	border-bottom: 1px solid; /* underline the last word in the overlay */
-}
-
-.overlay h2 span:nth-child(3) {
-	font-size: 1.4rem;
 }
 
 .overlay:hover {
@@ -232,6 +232,34 @@ header {
 
 .overlay:hover .overlay-text{
 	opacity: 1;
+}
+
+@media all and (min-width: 420px) { 
+	.project {
+		width: 50%;
+	}
+}
+
+@media all and (min-width: 700px) { 
+	.project {
+		width: 33.33%;
+	}
+}
+
+@media all and (min-width: 900px) { 
+	.project {
+		width: 25%;
+	}
+}
+
+/* overlay classes */
+
+.one span{
+	display: block;
+}
+
+.one h2 span:nth-child(3) {
+	font-size: 1.4rem;
 }
 
 /* || about */
@@ -304,3 +332,4 @@ header {
 		width: 40%;
 	}
 }
+

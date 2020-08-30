@@ -1,6 +1,6 @@
 ---
 title: "Helios"
-subtitle: RCA, 2020
+subtitle: THE ROYAL COLLEGE OF ART
 date: 2020-07-25T13:29:33+01:00 
 layout: work
 client: RCA
@@ -8,21 +8,21 @@ length: 4 Months
 categories: "work"
 resources:
   - src: "images/Dawn@2x.png"
-    title: one
+    title: Dawn
     params:
       weight: 100
   - src: "images/Day@2x.png"
-    title: one
+    title: Day
     params:
       weight: 10
   - src: "images/Dusk@2x.png"
-    title: one
+    title: Dusk
     params:
       weight: 20
   - name: header
     src: title/dis.png
   - name: header
-    src: title/HeliosLarge.png
+    src: title/Helios-Cover-Page.jpg
 ---
 
 Archeology tell us that Babylonians and Egyptians began to measure time at least 5,000 years ago. Our ancestors would rely on the sun to shine on sticks, and later obelisks, and measure the shadow it cast below.
