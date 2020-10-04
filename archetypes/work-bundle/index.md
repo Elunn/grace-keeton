@@ -5,12 +5,11 @@ date: {{ .Date }}
 layout: work
 categories: "work"
 overlayStyle: ""
-resources:
-  - src: ""
-    title: 
-    params:
-      weight: 
-  - name: header
-    src: title/
+resources: 
+- name: header
+  src: title/
+- src: 
+  params:
+    weight: 
 ---
 

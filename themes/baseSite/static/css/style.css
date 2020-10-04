@@ -32,15 +32,7 @@ main {
 	padding-bottom: 8vh;
 }
 
-footer {
-	position: relative;
-	bottom: 5vh;
-	height: 5vh;
-	clear: both;
-	text-align: center;
-}
-
-#container {
+.container {
 	width: 85%; /* about, contact and work page width and center */
 	margin: auto;
 	display: flex;
@@ -52,12 +44,42 @@ img {
 }
 
 @media all and (min-width: 700px) { 
-	#container {
+	.container {
 		flex-direction: row;
 	}
 
-	#container > div {
+	.container > div {
 /*		width: 25%;*/
+	}
+}
+
+/* || footer*/
+
+footer {
+	position: relative;
+	bottom: 5vh;
+	height: 10vh;
+	clear: both;
+	text-align: center;
+}
+
+footer a {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: .8rem;
+	color: var(--project-grey-one);
+}
+
+footer p {
+	font-size: .8rem;
+	position: absolute;
+	left: 4vw;
+	bottom: 2.5vh;
+}
+
+@media all and (min-width: 480px) { 
+	footer {
+		height: 5vh
 	}
 }
 
@@ -68,7 +90,7 @@ img {
 	font-weight: 300;
 	line-height: 1.5;
 	font-size: 15px;
-	color: var(--project-grey-one);
+	color: var(--project-grey-three);
 	--project-grey-one: #8D8D8D;
 	--project-grey-two: #707070;
 	--project-grey-three: #505050;
@@ -279,6 +301,38 @@ header {
 	padding-bottom: .5em;
 }
 
+#about-text p {
+	padding-bottom: 0.5em;
+} 
+
+#cv h2 {
+	font-size: 1rem;
+	padding-bottom: 1.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#cv li h3 {
+	font-size: 1rem;
+	font-style: italic;
+	padding: 1em 0;
+}
+
+#cv {
+	display: flex;
+	flex-direction: row;
+	padding-top: 2em;
+}
+
+#cv p {
+	font-size: 0.8rem;
+}
+
+#cv ul ul li {
+	border-left: solid 1px;
+	padding: 0 2em 1em 1em;
+}
+
 @media all and (min-width: 700px) { 
 	
 	.profile-container {
@@ -286,10 +340,24 @@ header {
 	}
 	
 	#about-text {
-		width: 45%;
+		width: 100%;
 		padding-left: 3.5em;
 		line-height: 1.4;
 	}
+	
+	#text {
+		width: 45%;
+	}
+}
+
+/* || Contact */
+
+#contact #text {
+	margin: auto;
+}
+
+#contact #about-text{
+	margin: auto;
 }
 
 /* || Work pages */
@@ -332,4 +400,5 @@ header {
 		width: 40%;
 	}
 }
+
 

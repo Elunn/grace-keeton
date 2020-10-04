@@ -1,12 +1,79 @@
 {{ define "main" }}
 {{ with .Resources.GetMatch "profile" }}
-<section id="container">
+<section class="container">
 	<div class="profile-container">
 		<div style="background-image: url({{ .Permalink }}); background-size:cover;">{{ end }}</div>
 	</div>
 	<div id="about-text">
+		<div id="text">
 		<h1>{{ .Title }}</h1>
 		{{ .Content }}
+		</div>
+		<div id="cv">
+			<div>
+				<h2>Education</h2>
+				<ul>
+					<li><h3>The Royal College of Art</h3>
+						<ul>
+							<li><p>MA Design Products Graduated July 2020</p></li>
+						</ul>
+					</li>
+					<li><h3>The Ohio State University</h3>
+						<ul>
+							<li><p>B.S. Mechanical Engineering Graduated May 2018</p></li>
+						</ul>
+					</li>
+					<li><h3>The New School: Parsons School of Design</h3>
+						<ul>
+							<li><p>Industrial Design Summer Intensive 2016</p></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Work Experience</h2>
+				<ul>
+					<li><h3>KOOLStories Ltd.</h3>
+						<ul>
+							<li><p>Head App Designer March 2020 - July 2020</p></li>
+						</ul>
+					</li>
+					<li><h3>ZukunPlan LLC</h3>
+						<ul>
+							<li><p>Industrial Design Intern January 2018 - June 2018</p></li>
+						</ul>
+					</li>
+					<li><h3>Procter &amp; Gamble</h3>
+						<ul>
+							<li><p>Industrial Design Intern</p><p>May 2017 - Aug 2017</p></li>
+							<li><p>Industrial Design Intern</p><p>May 2016 - Aug 2016</p></li>
+							<li><p>Mechanical Engineering Intern</p><p>May 2015 - Aug 2015</p></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h2>AWARDS, recognitions, Exhibitions</h2>
+				<ul>
+					<li><h3>The Royal College of Art</h3>
+						<ul>
+							<li><p>Distinction (Highest Award) for RCA Dissertation</p></li>
+						</ul>
+					</li>
+					<li><h3>Dutch Design Week 2020</h3>
+						<ul>
+							<li><p>Exhibited PORDUBRA &amp; Helios</p></li>
+						</ul>
+					</li>
+					<li><h3>The Ohio State University</h3>
+						<ul>
+							<li><p>Merit-Based Scholarships Morill Excellence (Full Tuition) Provost</p></li>
+							<li><p>College of Engineering Dean’s List</p></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </section>
 {{ end }}

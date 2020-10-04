@@ -25,10 +25,13 @@ She is an avid researcher, enjoying the process of delving deeper into topics to
 
 I strive to design things that comment on the human condition (I.e. what makes people unique vs connected, human vs inhuman).
 
-I feel passionately about designing to help either ignite or process emotions. 
+I feel passionately about designing to help either ignite or process emotions.
 
-I believe in being emotionally connected and invested in my work. I design things with theoretical depth. 
+I believe in being emotionally connected and invested in my work.
 
-Designing for one person can be just as valuable as designing for a thousand. 
+I design things with theoretical depth.
+
+Designing for one person can be just as valuable as designing for a thousand.
 
 I am inspired by design that taps into human’s humility and vulnerability (both as an audience and as a subject).
+
