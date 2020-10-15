@@ -1,7 +1,7 @@
 ---
 weight: 8
-title: "Disertation"
-subtitle: "Royal College of Art"
+title: Dissertation
+subtitle: Royal College of Art
 date: 2019-08-08T15:55:04+01:00
 layout: work
 client: RCA
@@ -14,7 +14,7 @@ resources:
 - src: images/dissCover.png
   params:
     weight: 1
-- src: images/Artboard2.png
+- src: images/Artboard 2.png
   params:
     weight: 2
 - src: images/Artboard1.jpg

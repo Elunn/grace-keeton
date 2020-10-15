@@ -1,7 +1,7 @@
 ---
 weight: 6
 title: "One Tool, One Stool"
-subtitle: THE ROYAL COLLEGE OF ART
+subtitle: Royal College of Art
 date: 2019-08-08T15:46:54+01:00
 layout: work
 client: RCA

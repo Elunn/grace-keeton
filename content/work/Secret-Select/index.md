@@ -1,10 +1,10 @@
 ---
 weight: 5
-title: "Secret Select"
-subtitle: "Royal College of Art"
-date: 2020-08-08T15:45:23+01:00
+title: Secret Select
+subtitle: Procter and Gamble
+date: 2017-08-08T15:45:23+01:00
 layout: work
-client: RCA
+client: Procter & Gamble
 Length: 3 months
 categories: "work"
 overlayStyle: ""

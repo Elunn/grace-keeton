@@ -1,10 +1,10 @@
 ---
 weight: 3
 title: "Pordubra"
-subtitle: THE ROYAL COLLEGE OF ART
+subtitle: Royal College of Art
 length: 3 Months
 client: RCA
-date: 2020-08-08T15:20:11+01:00
+date: 2019-08-08T15:20:11+01:00
 layout: work
 categories: "work"
 overlayStyle: ""

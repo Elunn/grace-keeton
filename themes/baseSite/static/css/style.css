@@ -224,17 +224,9 @@ header {
 	transition: 1s;
 }
 
-.overlay h2 {
-	font-size: 2.5vw;
-}
-
-.overlay span {
+.under {
+	border-bottom: 1px solid;
 	display: inline-block;
-}
-
-.overlay h3 {
-	line-height: 2;
-	font-size: .8vw;
 }
 
 .overlay h2, .overlay h3 {
@@ -244,8 +236,21 @@ header {
 	color: rgba(225,225,225, 0.99)
 }
 
-.overlay h2 span:last-child {
-	border-bottom: 1px solid; /* underline the last word in the overlay */
+.overlay h2 {
+	font-size: 2.5vw;
+	padding: 0;
+	margin: 0;
+}
+
+.overlay span {
+	display: block;
+}
+
+.overlay h3 {
+	line-height: 2;
+	font-size: .8vw;
+	padding: 0;
+	margin: 0;
 }
 
 .overlay:hover {
@@ -302,7 +307,7 @@ header {
 }
 
 #about-text p {
-	padding-bottom: 0.5em;
+	padding-bottom: 0.8em;
 } 
 
 #cv h2 {
@@ -336,7 +341,7 @@ header {
 @media all and (min-width: 700px) { 
 	
 	.profile-container {
-		width: 25%;
+		width: 35%;
 	}
 	
 	#about-text {
@@ -346,7 +351,7 @@ header {
 	}
 	
 	#text {
-		width: 45%;
+		width: 50%;
 	}
 }
 
@@ -356,11 +361,19 @@ header {
 	margin: auto;
 }
 
+.contact{
+	display: block
+}
+
 #contact #about-text{
 	margin: auto;
 }
 
 /* || Work pages */
+
+.work-title {
+	padding-bottom: 1.2em;
+}
 
 .work-text h1 {
 	font-size: 2.5rem;

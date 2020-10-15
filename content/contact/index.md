@@ -19,3 +19,5 @@ My ambition is to leverage all of my attributes and experiences to deliver produ
 -- As a Full-time Designer
 
 -- Within Professional Collaborations
+
+

@@ -1,8 +1,10 @@
 {{ define "main" }}
 <section class="container">
 	<div class="work-text">
-		<h1 class="target">{{ .Title }}</h1>
-		<div>{{ .Params.client }} {{ .PublishDate.Format "2006" }} | {{ .Params.length }}</div>
+		<div class="work-title">
+			<h1>{{ .Title }}</h1>
+			<div>{{ .Params.client }} {{ .PublishDate.Format "2006" }} | {{ .Params.length }}</div>
+		</div>
 		<div class="content">
 		{{ .Content }}
 		</div>

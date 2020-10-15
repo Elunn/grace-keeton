@@ -2,7 +2,7 @@
 weight: 4
 title: "Kudos"
 subtitle: "Royal College of Art"
-date: 2020-08-08T15:45:05+01:00
+date: 2018-08-08T15:45:05+01:00
 layout: work
 client: RCA
 length: 3 Months
@@ -14,7 +14,7 @@ resources:
 - src: images/Hand_FrontView.png
   params:
     weight: 1
-- src: images/Grig.png
+- src: images/Grid.png
   params:
     weight: 2
 - src: images/Screens-02.png

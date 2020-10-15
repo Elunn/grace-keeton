@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Helios"
-subtitle: THE ROYAL COLLEGE OF ART
+subtitle: Royal College of Art
 date: 2020-07-25T13:29:33+01:00 
 layout: work
 client: RCA
@@ -9,7 +9,7 @@ length: 4 Months
 categories: "work"
 resources:
 - name: header
-  src: title/HeliosCover.jpg
+  src: title/HeliosCover.png
 - src: images/Lables.png
   params:
     weight: 1
@@ -19,16 +19,16 @@ resources:
 - src: images/HeliosHero.png
   params:
     weight: 3
-- src: images/Day.png
+- src: images/NightLight.png
   params:
     weight: 4
 - src: images/Dawn.png
   params:
     weight: 5
-- src: images/Dusk.png
+- src: images/Day.png
   params:
     weight: 6
-- src: images/NightLight.png
+- src: images/Dusk.png
   params:
     weight: 7
 ---
