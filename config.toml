@@ -2,9 +2,9 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Grace Keeton"
 theme = "baseSite"
-description = "Site description"
+description = "Grace Keeton is a product designer from Cincinnati, Ohio. She studied Mechanical Engineering at The Ohio State University before completing her Masters in Design Products at the Royal College of Art."
+googleAnalytics = "UA-180741308-1"
   
 [taxonomies]
   category = "categories"
 
-googleAnalytics = "UA-180741308-1"
