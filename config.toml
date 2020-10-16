@@ -6,4 +6,5 @@ description = "Site description"
   
 [taxonomies]
   category = "categories"
-  
+
+googleAnalytics = "UA-180741308-1"

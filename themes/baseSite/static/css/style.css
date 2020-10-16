@@ -116,22 +116,23 @@ p {
 header {
 	z-index: 100;
 	background-color: #fff;
-	height: 8vh;
+	height: 18vh;
 	width: 100vw;
 	position: fixed;
+	margin: 1em 0;
 }
 
 .navbar {
-	padding-top: 1em;
 	height: 100%;
-	width: 92%;
+	width: 90%;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: baseline;
 	text-transform: uppercase;
 	align-items: center;
+	margin-bottom: 1em;
 }
 
 .nav-item {
@@ -298,7 +299,7 @@ header {
 }
 
 #manifesto {
-	padding-top: .5em; 
+	padding-top: 1em; 
 }
 
 #about-text h1 {
@@ -307,12 +308,12 @@ header {
 }
 
 #about-text p {
-	padding-bottom: 0.8em;
+	padding-bottom: 1em;
 } 
 
 #cv h2 {
 	font-size: 1rem;
-	padding-bottom: 1.2em;
+	padding: 1.2em 0;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -325,7 +326,7 @@ header {
 
 #cv {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	padding-top: 2em;
 }
 
@@ -353,16 +354,30 @@ header {
 	#text {
 		width: 50%;
 	}
+	
+	#cv {
+		flex-direction: row;
+	}
 }
 
 /* || Contact */
+
+
+#cv li p{
+	display: block;
+}
 
 #contact #text {
 	margin: auto;
 }
 
 .contact{
-	display: block
+	display: flex;
+	flex-direction: row;
+}
+
+.contact p {
+	padding-right: 2em;
 }
 
 #contact #about-text{
@@ -375,17 +390,17 @@ header {
 	padding-bottom: 1.2em;
 }
 
+.fist-title {
+	border-bottom: 1px solid;
+	display: inline-block;
+}
+
 .work-text h1 {
 	font-size: 2.5rem;
 }
 
 .work-text span {
 	display: block;
-}
-
-.work-text h1 span:last-child {
-	border-bottom: 1px solid;
-	display: inline;
 }
 
 .work-text h1 span:nth-child(3) {

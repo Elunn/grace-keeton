@@ -10,7 +10,7 @@ categories: "work"
 overlayStyle: ""
 resources:
 - name: header
-  src: title/Kuddos-Cover-Page.jpg
+  src: title/Kuddos-Cover-Page.png
 - src: images/Hand_FrontView.png
   params:
     weight: 1
