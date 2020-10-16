@@ -330,8 +330,9 @@ header {
 	padding-top: 2em;
 }
 
-#cv p {
+#cv li p {
 	font-size: 0.8rem;
+	padding-bottom: 0;
 }
 
 #cv ul ul li {
